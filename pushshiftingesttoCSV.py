@@ -4,7 +4,7 @@ import csv
 import time
 import math
 
-#checking if the API sends any data back when the user inputs the subreddit
+#does the API sends any data back when the user inputs the subreddit
 def validate_input(subreddit):
     varification_API = 'https://api.pushshift.io/reddit/submission/search/?subreddit=' + subreddit
     json_data = requests.get(varification_API).json()
