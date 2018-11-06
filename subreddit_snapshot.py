@@ -16,7 +16,8 @@ def validate_input(subreddit):
 
 while True:
     try:
-        subreddit = input("Input in the subreddit you'd like to scrape: ")
+        subreddit = input("Name of Sub to be Ingested")
+        #r/boston -> boston
         if validate_input(subreddit) : break
     except Exception:
         print ("Error: Invalid subreddit.")
