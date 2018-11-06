@@ -1,2 +1,2 @@
 # redditnlpstuff
-snapshot of a reddit ingest --> .csv file
+snapshot reddit ingest --> .csv file
